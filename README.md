@@ -12,7 +12,7 @@ This document is deliberately low-level, and intended to give as little friction
 The way that a podcast migration is achieved is a 30x redirect from the old RSS feed to the new one. This requires the specific permission of the original owner of the podcast. This acts as an identity check. Therefore:
 * Do not allow any monetisation to take place until a redirect has been confirmed. Dynamically inserted audio is fine for testing; but no money may be made by publisher or host until a redirect has been confirmed.
 * Do not allow one-click distribution to Apple/Spotify/etc until a redirect has been confirmed. (Ideally, your UX should stop a duplicate submission to these directories).
-* 
+
 _Redirects are normally possible from all reputable podcast hosts. However, where a redirect is not possible, a 404 error (the original feed going away) may also be acceptable._
 
 ## Other things to consider:
